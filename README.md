@@ -18,7 +18,7 @@ Natural language to SQL translation using an iterative LLM-Modulo verification l
 Three top-level directories are included:
 
 - **`code/`** — source code for experiments we run (Python backend + React frontend)
-  - TraditionalMLBaseline - Has the code for our tradional ML baseline algorithm
+  - Traditional_ML_Baseline - Has the code for our tradional ML baseline algorithm
 - **`data/`** — Spider and BIRD benchmark datasets
 - **`evaluations/`** — pre-run evaluation artifacts organized by experiment type
   - `evaluations/baselines/` — zero-shot baseline runs for `flan-t5`, `flan-t5-base`, `qwen2.5-0.5b`
