@@ -13,6 +13,20 @@ Natural language to SQL translation using an iterative LLM-Modulo verification l
 | Nandana Vikraman | [@NandanaVikraman](https://github.com/NandanaVikraman) |
 | Kamal Teja Annamdasu | [@kamalteja24](https://github.com/kamalteja24) |
 
+## Repository Contents
+
+Three top-level directories are included:
+
+- **`code/`** — source code for experiments we run (Python backend + React frontend)
+  - TraditionalMLBaseline - Has the code for our tradional ML baseline algorithm
+- **`data/`** — Spider and BIRD benchmark datasets
+- **`evaluations/`** — pre-run evaluation artifacts organized by experiment type
+  - `evaluations/baselines/` — zero-shot baseline runs for `flan-t5`, `flan-t5-base`, `qwen2.5-0.5b`
+  - `evaluations/ablations/verifier_ablation/` — modulo runs with each verifier subset: syntax-only, schema-only, judge-only
+  - `evaluations/ablations/iter_ablation/` — modulo runs varying `candidates_per_iter` (1, 2, 3)
+
+Each evaluation folder contains `checkpoint.jsonl` (per-sample predictions), `baseline_<timestamp>.json` (summary + full results), and `logs.txt`.
+
 ## Overview
 
 The system translates a natural language question and a database schema into a SQL query. It supports two modes:
