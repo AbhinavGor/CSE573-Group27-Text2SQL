@@ -2,6 +2,17 @@
 
 Natural language to SQL translation using an iterative LLM-Modulo verification loop. Evaluated on the Spider and BIRD benchmarks.
 
+## Team Members
+
+| Member | GitHub |
+|---|---|
+| Abhinav Gorantla | [@abhinavgorantla](https://github.com/abhinavgorantla) |
+| Rohitha Somuri | [@Rohitha21032003](https://github.com/Rohitha21032003) |
+| Aryan Brijeshkumar Patel | [@P-Aryan](https://github.com/P-Aryan) |
+| Tejas Ajay Parse | [@TejasParse](https://github.com/TejasParse) |
+| Nandana Vikraman | [@NandanaVikraman](https://github.com/NandanaVikraman) |
+| Kamal Teja Annamdasu | [@kamalteja24](https://github.com/kamalteja24) |
+
 ## Overview
 
 The system translates a natural language question and a database schema into a SQL query. It supports two modes:
